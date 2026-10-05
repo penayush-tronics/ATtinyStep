@@ -25,4 +25,6 @@ For some weird reason, IMUs are insanely expensive. Tough to find a cheap one th
 
 Next I will do the schematics and then build pcb. After that I need funding to order parts and PCB, then I can build this project and use it. The plan is pretty clear, and im aching to execute it. 
 
+Note: I did not know i needed a Lapse timelapse for research, so there is no lapse for this. 
+
 **Total time spent: 1 hour**
