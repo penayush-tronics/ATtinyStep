@@ -28,3 +28,37 @@ Next I will do the schematics and then build pcb. After that I need funding to o
 Note: I did not know i needed a Lapse timelapse for research, so there is no lapse for this. 
 
 **Total time spent: 1 hour**
+
+
+# October 6
+
+Today I made the schematic for the device. I thought it wouldn't be that much of a hassle, but it was nonetheless. I forgot i needed a power circuit, because i thought everything would work off of a LiPo, and also realised there were so many pins on the ATtiny going to waste. 
+
+Here is the schematic right now: 
+
+![alt text](image-2.png)
+
+In the top left corner is a simple standard power circuit: 
+
+![alt text](image-3.png)
+
+I am using an AP2112K-3.3V LDO to step down the battery voltage to 3.3V. Along with this is a switch, some capacitors and a status LED. 
+Had to add this because the IMU will no work off the battery directly, too high of a voltage. 
+
+Next i added schematics for the ATtiny1624:
+
+![alt text](image-4.png)
+
+Wired up a reset button, a programming header, the I2C lines for OLED and IMU. Added resistors for the I2C and UPDI programming. I also added some breakout pins because it felt like the rest of the chip was going to waste when im using just 2 pins to drive peripherals. so an optional breakout is there now. Hence the mess of wires. 
+
+Finally schematics for the IMU: 
+
+![alt text](image-5.png)
+
+Just two I2C pins, and every other connection is pulled high for the correct setup. 
+
+Thats about it for the schematic, ill make the PCB next
+
+Lapse: https://lapse.hackclub.com/timelapse/I2aO08c73dfr
+
+**Total time spent: 1 hour**
