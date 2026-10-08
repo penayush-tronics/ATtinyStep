@@ -82,6 +82,8 @@ As you can see, where blue is backside.
 
 Another annoying thing was power VCC connections. I couldnt use a power plane because ground plane more important, and frontside there is no place for a power plane. I actually had to remove a rectangle of the ground plane because it had thin parts which would only capture noise instead of remove it. 
 
+A key thing which i did was to center the IMU. This is important for accurate angle readings and measuring acceleration. I did this by measuring the board dimensions and approximately halving them, and putting guides. 
+
 Here is a 3d view: 
 ![alt text](image-10.png)
 ![alt text](image-11.png)
