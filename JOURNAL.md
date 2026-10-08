@@ -62,3 +62,31 @@ Thats about it for the schematic, ill make the PCB next
 Lapse: https://lapse.hackclub.com/timelapse/I2aO08c73dfr
 
 **Total time spent: 1 hour**
+
+# October 7
+I designed the PCB today. It tooke me a while to design this because I had to really do a lot of space management. For the current deisgn I am 'satisfied' but I think it can be better. I only made it single sided so i can solder it usign just my hotplate; no double side hassle even thought double might have been easier to design. 
+Here is the PCB:
+![alt text](image-6.png)
+Added a few parts like a switch, to turn the device on and off. 
+
+I also added a diode:
+![alt text](image-7.png)
+
+this diode prevents current from entering the LDO in reverse when it's powered by the programmer on the programmign header. 
+![alt text](image-8.png)
+The right three-pin is the programming header, the top button is a reset button for the ATtiny. Up there is a four-pin for the OLED screen. 
+
+The most annoyign part was wiring the I2C lines. I had to route them from the back which was annoying and felt asymmetrical. 
+![alt text](image-9.png)
+As you can see, where blue is backside. 
+
+Another annoying thing was power VCC connections. I couldnt use a power plane because ground plane more important, and frontside there is no place for a power plane. I actually had to remove a rectangle of the ground plane because it had thin parts which would only capture noise instead of remove it. 
+
+Here is a 3d view: 
+![alt text](image-10.png)
+![alt text](image-11.png)
+
+Next is refining PCB, panelising for efficient fabrication, and then repo updating and shipping. 
+
+Lapse: https://lapse.hackclub.com/timelapse/N_VsGccL-1x6
+**Total time spent: 1.5 hours**
