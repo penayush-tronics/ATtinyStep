@@ -131,7 +131,7 @@ it looks really nice now, especially because i labelled everything on the PCB. I
 
  Lapse: https://lapse.hackclub.com/timelapse/U3Mb4CTaFlST
 
- **Total time spent: 1.5 hours**
+**Total time spent: 1.5 hours**
 
  # October 9
   ## Project is shipped on GitHub!
@@ -150,4 +150,4 @@ it looks really nice now, especially because i labelled everything on the PCB. I
 
    So i have 2h on lapse and 1h 24 min on hackatime for README. so 1.5h hackatime 0.5h journal rounded roughly.
 
-   **Total time spent: 0.5 hours**
+**Total time spent: 0.5 hours**
