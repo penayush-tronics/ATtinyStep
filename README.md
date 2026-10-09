@@ -91,7 +91,7 @@ Coming soon :)
 | 17 | Custom PCB | 5 | 1 | 188.80 | 944.00 | [Lion Circuits](https://www.lioncircuits.com/quote?layers=2&units=5&dimensionX=50&dimensionY=20) |
 |  | Totals: |  | 22 | 1226.96 | 2070.11 |  |
 
-Price per board: ~1230 INR or ~ $12.5 USD
+Price per board: ~1230 INR or ~ $12.9 USD
 
 The spreadsheet BOM is [here](ATtinyStepBOM.xlsx)
 
