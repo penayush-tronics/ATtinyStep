@@ -55,9 +55,9 @@ KiCAD schematics can be found [here](PCB_Files/ATtinyStep.kicad_sch)
 
 ![alt text](JournalPics/image-17.png)
 
-KiCAD PCB design can be found [here](PCB_Files/ATtinyStep.kicad_pcb)
-Gerber files for fabrication are [here](PCB_Files/ATtinyStep-Gerbers.zip)
-Position file for pick and place is [here](PCB_Files/ATtinyStep-all.pos)
+KiCAD PCB design can be found [here](PCB_Files/ATtinyStep.kicad_pcb).
+Gerber files for fabrication are [here](PCB_Files/ATtinyStep-Gerbers.zip).
+Position file for pick and place is [here](PCB_Files/ATtinyStep-all.pos).
 
 ## Why ATtinyStep exists
 One day I was walking around my community and talking to my friend online. We were talking about walking as an exercise, and how walking faster is important. Hence, they said that they were sure I wasn't walking fast enough. I told them I walk at 6km/h, but they did not believe me. That day I had two realisations: I should take a break from my phone during walks, and I need a speedometer for myself. So, this idea was born. An offline hardware speedometer. So I can make sure I am walking at a healthy speed.
