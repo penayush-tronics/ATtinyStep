@@ -133,7 +133,7 @@ it looks really nice now, especially because i labelled everything on the PCB. I
 
 **Total time spent: 1.5 hours**
 
- # October 9
+# October 9
   ## Project is shipped on GitHub!
   I finally shipped the project on github. The BOM and everything is there i made BOM i made readme. Im too sleepy to write anything now. Hackatime and Lapse tracked me, but the README was also tracked by Hackatime at same time as Lapse. so ill deflate my jorunal time here so that the hackatime time is accurate and im not overstating time. 
 
