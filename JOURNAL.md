@@ -11,7 +11,7 @@ After a few days of rumination, my idea for this step counter is finally refined
 
 Now that requried features are there, I needed a cheap and appropriate processor. An arduino nano is too over-powered for this, while a ATtiny13a does not have enough ram. So I researched and found the ATtiny16 series, which has 16KB of flash and 2KB of memory. 
 
-![alt text](image.png)
+![alt text](JournalPics/image.png)
 
 It is perfect for the needed calculations, as well as being simple enough for this project. Some other versionsa re there like the ATtiny8 series, but the RAM is not enough in some cases, and in others the price is more than this ATtiny1624. 
 
@@ -19,7 +19,7 @@ It has I2C, which means I can eaisly use peripherals. I wanted to use an I2C OLE
 
 To measure all speed, steps, and distance, I need an IMU or an Intertial Meausrment Unit. For this project I need a 6-axis IMU, meaning a 3-axis accelerometer as well as a 3-axis gyroscope. The cheapest one I could find was the LSM6DS series: 
 
-![alt text](image-1.png)
+![alt text](JournalPics/image-1.png)
 
 For some weird reason, IMUs are insanely expensive. Tough to find a cheap one thats 6-axis. This one is LGA, which I have never soldered before, so this will be a new challenge for me. 
 
@@ -38,24 +38,24 @@ Today I made the schematic for the device. I thought it wouldn't be that much of
 
 Here is the schematic right now: 
 
-![alt text](image-2.png)
+![alt text](JournalPics/image-2.png)
 
 In the top left corner is a simple standard power circuit: 
 
-![alt text](image-3.png)
+![alt text](JournalPics/image-3.png)
 
 I am using an AP2112K-3.3V LDO to step down the battery voltage to 3.3V. Along with this is a switch, some capacitors and a status LED. 
 Had to add this because the IMU will no work off the battery directly, too high of a voltage. 
 
 Next i added schematics for the ATtiny1624:
 
-![alt text](image-4.png)
+![alt text](JournalPics/image-4.png)
 
 Wired up a reset button, a programming header, the I2C lines for OLED and IMU. Added resistors for the I2C and UPDI programming. I also added some breakout pins because it felt like the rest of the chip was going to waste when im using just 2 pins to drive peripherals. so an optional breakout is there now. Hence the mess of wires. 
 
 Finally schematics for the IMU: 
 
-![alt text](image-5.png)
+![alt text](JournalPics/image-5.png)
 
 Just two I2C pins, and every other connection is pulled high for the correct setup. 
 
@@ -71,18 +71,18 @@ Lapse: https://lapse.hackclub.com/timelapse/I2aO08c73dfr
 
 I designed the PCB today. It tooke me a while to design this because I had to really do a lot of space management. For the current deisgn I am 'satisfied' but I think it can be better. I only made it single sided so i can solder it usign just my hotplate; no double side hassle even thought double might have been easier to design. 
 Here is the PCB:
-![alt text](image-6.png)
+![alt text](JournalPics/image-6.png)
 Added a few parts like a switch, to turn the device on and off. 
 
 I also added a diode:
-![alt text](image-7.png)
+![alt text](JournalPics/image-7.png)
 
 this diode prevents current from entering the LDO in reverse when it's powered by the programmer on the programmign header. 
-![alt text](image-8.png)
+![alt text](JournalPics/image-8.png)
 The right three-pin is the programming header, the top button is a reset button for the ATtiny. Up there is a four-pin for the OLED screen. 
 
 The most annoyign part was wiring the I2C lines. I had to route them from the back which was annoying and felt asymmetrical. 
-![alt text](image-9.png)
+![alt text](JournalPics/image-9.png)
 As you can see, where blue is backside. 
 
 Another annoying thing was power VCC connections. I couldnt use a power plane because ground plane more important, and frontside there is no place for a power plane. I actually had to remove a rectangle of the ground plane because it had thin parts which would only capture noise instead of remove it. 
@@ -90,8 +90,8 @@ Another annoying thing was power VCC connections. I couldnt use a power plane be
 A key thing which i did was to center the IMU. This is important for accurate angle readings and measuring acceleration. I did this by measuring the board dimensions and approximately halving them, and putting guides. 
 
 Here is a 3d view: 
-![alt text](image-10.png)
-![alt text](image-11.png)
+![alt text](JournalPics/image-10.png)
+![alt text](JournalPics/image-11.png)
 
 Next is refining PCB, panelising for efficient fabrication, and then repo updating and shipping. 
 
@@ -109,23 +109,23 @@ Before, the breakout pin placements were almost random. the two rows were not al
 
 ### Mistake 2: UPDI programming pins
 I didnt realise UPDI programming puts a resistor only on the Tx, so i had placed a resistor in series with the UPDI pin itslef! It would have been impossible to program the chip if i had done that. I fixed it now by editing the schematics and adding Tx Rx pins, and adding a resistor to only the Tx.
- ![alt text](image-12.png)
+ ![alt text](JournalPics/image-12.png)
 
 ### other edits
 i resized the board to be smaller heightwise, because it just felt like a waste of space. I rearrnaged eveyrthing, i recentred the IMU, this time with much better accuracy. 
 I added a mode select button to pin 6 on the attiny, so that it can be controlled a little. 
-![alt text](image-13.png)
+![alt text](JournalPics/image-13.png)
 
 it looks really nice now, especially because i labelled everything on the PCB. I added a accelrometer direction diagram too, some pin names and other things for usability and readability. Most importantly i added labels for battery input; reverse polarity would kill everything. 
  take a look at the updated PCB!
 
  front:
-  ![alt text](image-14.png)
-  ![alt text](image-15.png)
+  ![alt text](JournalPics/image-14.png)
+  ![alt text](JournalPics/image-15.png)
  
  back:
-  ![alt text](image-16.png)
-  ![alt text](image-17.png)
+  ![alt text](JournalPics/image-16.png)
+  ![alt text](JournalPics/image-17.png)
 
  I am really happy with this. Of course i will do another check before fabrication. But right now its beutiful. 
 
