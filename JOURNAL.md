@@ -32,6 +32,8 @@ Note: I did not know i needed a Lapse timelapse for research, so there is no lap
 
 # October 6
 
+## Making schematics
+
 Today I made the schematic for the device. I thought it wouldn't be that much of a hassle, but it was nonetheless. I forgot i needed a power circuit, because i thought everything would work off of a LiPo, and also realised there were so many pins on the ATtiny going to waste. 
 
 Here is the schematic right now: 
@@ -64,6 +66,9 @@ Lapse: https://lapse.hackclub.com/timelapse/I2aO08c73dfr
 **Total time spent: 1 hour**
 
 # October 7
+
+## Designing PCB
+
 I designed the PCB today. It tooke me a while to design this because I had to really do a lot of space management. For the current deisgn I am 'satisfied' but I think it can be better. I only made it single sided so i can solder it usign just my hotplate; no double side hassle even thought double might have been easier to design. 
 Here is the PCB:
 ![alt text](image-6.png)
@@ -93,3 +98,37 @@ Next is refining PCB, panelising for efficient fabrication, and then repo updati
 Lapse: https://lapse.hackclub.com/timelapse/N_VsGccL-1x6
 
 **Total time spent: 1.5 hours**
+
+# October 8
+
+  ## Fixing the PCB
+
+I was looking over the PCB for some time, and there were a few crucial mistakes i had to fix, and i made the PCB smaller. I am actually happy with this design now, it looks much better than before. 
+### Mistake 1: breakout pin placement
+Before, the breakout pin placements were almost random. the two rows were not aligned with 2.54mm pitch standard. So i had to use another header row as a guide and arrange them. This meant i hd to brign the top one closer, so i had to rearrnage the I2C resistors. Now it is alligned!.
+
+### Mistake 2: UPDI programming pins
+I didnt realise UPDI programming puts a resistor only on the Tx, so i had placed a resistor in series with the UPDI pin itslef! It would have been impossible to program the chip if i had done that. I fixed it now by editing the schematics and adding Tx Rx pins, and adding a resistor to only the Tx.
+ ![alt text](image-12.png)
+
+### other edits
+i resized the board to be smaller heightwise, because it just felt like a waste of space. I rearrnaged eveyrthing, i recentred the IMU, this time with much better accuracy. 
+I added a mode select button to pin 6 on the attiny, so that it can be controlled a little. 
+![alt text](image-13.png)
+
+it looks really nice now, especially because i labelled everything on the PCB. I added a accelrometer direction diagram too, some pin names and other things for usability and readability. Most importantly i added labels for battery input; reverse polarity would kill everything. 
+ take a look at the updated PCB!
+
+ front:
+  ![alt text](image-14.png)
+  ![alt text](image-15.png)
+ 
+ back:
+  ![alt text](image-16.png)
+  ![alt text](image-17.png)
+
+ I am really happy with this. Of course i will do another check before fabrication. But right now its beutiful. 
+
+ Lapse: https://lapse.hackclub.com/timelapse/U3Mb4CTaFlST
+
+ **Total time spent: 1.5 hours**
