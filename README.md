@@ -63,6 +63,8 @@ Position file for pick and place is [here](PCB_Files/ATtinyStep-all.pos).
 One day I was walking around my community and talking to my friend online. We were talking about walking as an exercise, and how walking faster is important. Hence, they said that they were sure I wasn't walking fast enough. I told them I walk at 6km/h, but they did not believe me. That day I had two realisations: I should take a break from my phone during walks, and I need a speedometer for myself. So, this idea was born. An offline hardware speedometer. So I can make sure I am walking at a healthy speed.
 The name comes from when I was thinking about a title, and realised ATtiny sounds like 'A tiny', and well it's a step counter. So ATtinyStep came. It is pronounced 'Ay Tee tiny step' or just 'A tiny step'.
 
+The extra breakout board pins were because it felt like a waste to have so many pins unused. So the breakout enables them to be used. 
+
 ## Demo
 Coming soon :)
 
