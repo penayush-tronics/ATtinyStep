@@ -132,3 +132,22 @@ it looks really nice now, especially because i labelled everything on the PCB. I
  Lapse: https://lapse.hackclub.com/timelapse/U3Mb4CTaFlST
 
  **Total time spent: 1.5 hours**
+
+ # October 9
+  ## Project is shipped on GitHub!
+  I finally shipped the project on github. The BOM and everything is there i made BOM i made readme. Im too sleepy to write anything now. Hackatime and Lapse tracked me, but the README was also tracked by Hackatime at same time as Lapse. so ill deflate my jorunal time here so that the hackatime time is accurate and im not overstating time. 
+
+  Here is the repo now:
+  ![alt text](JournalPics/image-19.png)
+
+   I added how to use:
+   ![alt text](JournalPics/image-18.png)
+
+   BOM:
+   ![alt text](JournalPics/image-20.png)
+
+   Lapse: https://lapse.hackclub.com/timelapse/evV-MM8G5bpx
+
+   So i have 2h on lapse and 1h 24 min on hackatime for README. so 1.5h hackatime 0.5h journal rounded roughly.
+
+   **Total time spent: 0.5 hours**
