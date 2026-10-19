@@ -70,30 +70,30 @@ Coming soon :)
 
 ## Bill Of Materials (BOM)
 
-| Sr No. | Component Description | Min Order Qty | Qty for Board | Unit Price (INR) | Ext. Price (INR) | Reference Link |
-|---|---|---|---|---|---|---|
-| 1 | ATTINY1624-SSU-MICROCHIP-8 Bit MCU | 1 | 1 | 226.00 | 226.00 | [Robu](https://robu.in/product/attiny1624-ssu-microchip-8-bit-mcu-avr-family-attiny1624-series-microcontrollers-avr-20-mhz-16-kb-14-pins-wsoic/) |
-| 2 | LSM6DSOETR3-Stmicroelectronics | 1 | 1 | 292.00 | 292.00 | [Robu](https://robu.in/product/lsm6dsoetr3-stmicroelectronics-lsm6dsoetr3-mems-modules/) |
-| 3 | 0.96 inch Yellow-Blue OLED Display Module | 1 | 1 | 179.00 | 179.00 | [Robu](https://robu.in/product/0-96-inch-yellow-yellow-blue-oled-lcd-led-display-module/) |
-| 4 | AP2112K/AP2125K -3.3TRG1-Diodes Incorporated | 1 | 1 | 13.00 | 13.00 | [Robu](https://robu.in/product/ap2125k-3-3trg1-diodes-incorporated-300ma-65db-fixed-3-3v-positive-9v-sot-23-5-voltage-regulators-linear-low-drop-out-ldo-regulators-rohs/) |
-| 5 | 3.7V 1500mAH Li-Po Rechargeable Battery (523450) | 1 | 1 | 232.00 | 232.00 | [Quartz Components](https://quartzcomponents.com/products/3-7v-1500mah-li-po-rechargeable-battery-523450?variant=44853316813034) |
-| 6 | Toggle Slide Switch | 1 | 1 | 5.00 | 5.00 | [Quartz Components](https://quartzcomponents.com/products/toggle-slide-switch?variant=31898088833159) |
-| 7 | Green LED - SMD (1206 Package) - Pack of 50 | 50 | 1 | 0.72 | 36.00 | [Quartz Components](https://quartzcomponents.com/collections/all/products/green-led-smd-1206-package-pack-of-50) |
-| 8 | 1K Ohm 1206 Package 1/4W SMD Resistor 5% Tolerance (Pack of 20 Pieces) | 20 | 1 | 0.50 | 10.00 | [Quartz Components](https://quartzcomponents.com/products/1k-ohm-1206-package-1-4w-smd-resistor-5-tolerance-pack-of-20-pieces?variant=44679699792106) |
-| 9 | 4.7K Ohm 1206 Package 1/4W SMD Resistor 5% Tolerance (Pack of 20 Pieces) | 20 | 3 | 0.60 | 12.00 | [Quartz Components](https://quartzcomponents.com/products/4-7k-ohm-1206-package-1-4w-smd-resistor-5-tolerance-pack-of-20-pieces?variant=44679719878890) |
-| 10 | TSB005A2518B-BZCN-3.6mm 2.5mm 50mA 8mm 30,000 Times 180gf 12V SMD Tactile Switches | 4 | 2 | 2.85 | 11.40 | [Robu](https://robu.in/product/tsb005a2518b-bzcn-3-6mm-2-5mm-50ma-8mm-30000-times-180gf-12v-smd-tactile-switches-rohs/) |
-| 11 | A7 / 1N4007 SMD Diode (Pack of 10) | 10 | 1 | 1.10 | 11.00 | [Quartz Components](https://quartzcomponents.com/products/m7-1n4007-smd-diode-pack-of-11?variant=43690452713706) |
-| 12 | 100nF / 0.1uF (104) 50V 1206 SMD Capacitor (Pack of 10 Pieces) | 10 | 2 | 1.60 | 16.00 | [Quartz Components](https://quartzcomponents.com/products/100nf-0-1uf-104-50v-1206-smd-capacitor-pack-of-10-pieces?variant=43526822232298) |
-| 13 | 16V 10uF X5R 1206 Multilayer Ceramic Capacitors MLCC | 3 | 2 | 4.57 | 13.71 | [Robu](https://robu.in/product/cl31a106kohnnwe-samsang-16v-10uf-x5r-1206-multilayer-ceramic-capacitors-mlcc-smd-smt-rohs/) |
-| 14 | MLCC SMD Capacitor - 100UF, 10V, 1210 | 1 | 1 | 46.00 | 46.00 | [Robu](https://robu.in/product/lmk325abj107mm-p-taiyo-yuden-cap-smd-mlcc-100uf-10v-1210-pack-of-1/) |
-| 15 | TP4056 - Battery Charging | 1 | 1 | 14.00 | 14.00 | [Quartz Components](https://quartzcomponents.com/products/tp4056-battery-charging-micro-usb) |
-| 16 | Male/Female headers | 1 | 1 | 9.00 | 9.00 | [Robu](https://robu.in/product/2-54mm-1x40-pin-male-single-row-straight-short-header-strip-pack-of-3/) |
-| 17 | Custom PCB | 5 | 1 | 188.80 | 944.00 | [Lion Circuits](https://www.lioncircuits.com/quote?layers=2&units=5&dimensionX=50&dimensionY=20) |
-|  | Totals: |  | 22 | 1226.96 | 2070.11 |  |
+| Sr No. | Component Description | Min Order Qty | Qty for board | Unit Price (INR) | Unit Price (USD) | Ext. Price (INR) | Ext. Price (USD) | Reference Link |
+|---|---|---|---|---|---|---|---|---|
+| 1 | ATTINY1624-SSU-MICROCHIP-8 Bit MCU | 1 | 1 | 226.00 | 2.38 | 226.00 | 2.38 | [Robu](https://robu.in/product/attiny1624-ssu-microchip-8-bit-mcu-avr-family-attiny1624-series-microcontrollers-avr-20-mhz-16-kb-14-pins-wsoic/) |
+| 2 | LSM6DSOETR3-Stmicroelectronics | 1 | 1 | 292.00 | 3.07 | 292.00 | 3.07 | [Robu](https://robu.in/product/lsm6dsoetr3-stmicroelectronics-lsm6dsoetr3-mems-modules/) |
+| 3 | 0.96 inch Yellow-Blue OLED Display Module | 1 | 1 | 179.00 | 1.88 | 179.00 | 1.88 | [Robu](https://robu.in/product/0-96-inch-yellow-yellow-blue-oled-lcd-led-display-module/) |
+| 4 | AP2112K/AP2125K -3.3TRG1-Diodes Incorporated | 1 | 1 | 13.00 | 0.14 | 13.00 | 0.14 | [Robu](https://robu.in/product/ap2125k-3-3trg1-diodes-incorporated-300ma-65db-fixed-3-3v-positive-9v-sot-23-5-voltage-regulators-linear-low-drop-out-ldo-regulators-rohs/) |
+| 5 | 3.7V 1500mAH Li-Po Rechargeable Battery (523450) | 1 | 1 | 232.00 | 2.44 | 232.00 | 2.44 | [Quartz Components](https://quartzcomponents.com/products/3-7v-1500mah-li-po-rechargeable-battery-523450?variant=44853316813034) |
+| 6 | Toggle Slide Switch | 1 | 1 | 5.00 | 0.05 | 5.00 | 0.05 | [Quartz Components](https://quartzcomponents.com/products/toggle-slide-switch?variant=31898088833159) |
+| 7 | Green LED - SMD (1206 Package) - Pack of 50 | 50 | 1 | 0.72 | 0.01 | 36.00 | 0.38 | [Quartz Components](https://quartzcomponents.com/collections/all/products/green-led-smd-1206-package-pack-of-50) |
+| 8 | 1K Ohm 1206 Package 1/4W SMD Resistor 5% Tolerance (Pack of 20 Pieces) | 20 | 1 | 0.50 | 0.01 | 10.00 | 0.11 | [Quartz Components](https://quartzcomponents.com/products/1k-ohm-1206-package-1-4w-smd-resistor-5-tolerance-pack-of-20-pieces?variant=44679699792106) |
+| 9 | 4.7K Ohm 1206 Package 1/4W SMD Resistor 5% Tolerance (Pack of 20 Pieces) | 20 | 3 | 0.60 | 0.01 | 12.00 | 0.13 | [Quartz Components](https://quartzcomponents.com/products/4-7k-ohm-1206-package-1-4w-smd-resistor-5-tolerance-pack-of-20-pieces?variant=44679719878890) |
+| 10 | TSB005A2518B-BZCN-3.6mm 2.5mm 50mA 8mm 30,000 Times 180gf 12V SMD Tactile Switches | 4 | 2 | 2.85 | 0.03 | 11.40 | 0.12 | [Robu](https://robu.in/product/tsb005a2518b-bzcn-3-6mm-2-5mm-50ma-8mm-30000-times-180gf-12v-smd-tactile-switches-rohs/) |
+| 11 | A7 / 1N4007 SMD Diode (Pack of 10) | 10 | 1 | 1.10 | 0.01 | 11.00 | 0.12 | [Quartz Components](https://quartzcomponents.com/products/m7-1n4007-smd-diode-pack-of-11?variant=43690452713706) |
+| 12 | 100nF / 0.1uF (104) 50V 1206 SMD Capacitor (Pack of 10 Pieces) | 10 | 2 | 1.60 | 0.02 | 16.00 | 0.17 | [Quartz Components](https://quartzcomponents.com/products/100nf-0-1uf-104-50v-1206-smd-capacitor-pack-of-10-pieces?variant=43526822232298) |
+| 13 | 16V 10uF X5R 1206 Multilayer Ceramic Capacitors MLCC | 3 | 2 | 4.57 | 0.05 | 13.71 | 0.14 | [Robu](https://robu.in/product/cl31a106kohnnwe-samsang-16v-10uf-x5r-1206-multilayer-ceramic-capacitors-mlcc-smd-smt-rohs/) |
+| 14 | MLCC SMD Capacitor - 100UF, 10V, 1210 | 1 | 1 | 46.00 | 0.48 | 46.00 | 0.48 | [Robu](https://robu.in/product/lmk325abj107mm-p-taiyo-yuden-cap-smd-mlcc-100uf-10v-1210-pack-of-1/) |
+| 15 | TP4056 - Battery Charging | 1 | 1 | 14.00 | 0.15 | 14.00 | 0.15 | [Quartz Components](https://quartzcomponents.com/products/tp4056-battery-charging-micro-usb) |
+| 16 | Male/Female headers | 1 | 1 | 9.00 | 0.09 | 9.00 | 0.09 | [Robu](https://robu.in/product/2-54mm-1x40-pin-male-single-row-straight-short-header-strip-pack-of-3/) |
+| 17 | Custom PCB | 5 | 1 | 188.80 | 1.99 | 944.00 | 9.94 | [Lion Circuits](https://www.lioncircuits.com/quote?layers=2&units=5&dimensionX=50&dimensionY=20) |
+|  | **Totals:** |  | **22** | **** | **** | **2070.11** | **21.79** |  |
 
 Price per board: ~1230 INR or ~ $12.9 USD
 
-The spreadsheet BOM is [here](ATtinyStepBOM.xlsx)
+The spreadsheet BOM is [here](BOM.csv)
 
 
 
